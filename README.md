@@ -1,1 +1,11 @@
-![](https://github.com/cyrillkuettel/visualize-deep-learning-models/raw/master/video/runtime_decisions.mp4)
+#     visualize-deep-learning-models
+
+Animations the image traveling through the networks.
+
+Build using p5.js and 3dl of coffee.
+
+https://github.com/cyrillkuettel/visualize-deep-learning-models/assets/36520284/d957775a-fb02-4f0b-989e-acbb702eba71
+
+
+## Credits
+Thank you to [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) For providing latex code for making beautfiful neural network diagrams.
