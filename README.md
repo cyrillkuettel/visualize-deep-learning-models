@@ -1,1 +1,1 @@
-[runtime_decisions.mp4](src%2Fvideo%2Fruntime_decisions.mp4)
+![](https://github.com/cyrillkuettel/visualize-deep-learning-models/raw/master/video/runtime_decisions.mp4)
