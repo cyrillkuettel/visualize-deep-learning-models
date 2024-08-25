@@ -1,10 +1,16 @@
-// Existing variables
+// Abandon all hope ye who enter here.
+
+
+// Globals:
+// The main moving object's initial position:
 let cat1;
 let cat1X = 0;
 let cat1Y = 450;
 let cat2Y = 450;
 let cat2X = -200;
 
+// Almost Everything is hardcoded, on purpose.
+// This was never meant to be extended.
 let globalSpeedFactor = 1;
 let speed = 10 * globalSpeedFactor;
 let arrowSpeed = 15;
@@ -25,8 +31,9 @@ let ady;
 let aux;
 let auy;
 let startSecondCat = false;
+let shouldStartOscialate = false;
 
-
+// Called once on App start
 function setup() {
    // frameRate(30);
     createCanvas(3651, 2000);
@@ -45,7 +52,6 @@ function setup() {
 
 }
 
-let shouldStartOscialate = false;
 
 function printDebug() {
     return;
@@ -65,7 +71,7 @@ function printDebug() {
     });
 }
 
-
+// Called continuously.
 function draw() {
 
     background(255);
